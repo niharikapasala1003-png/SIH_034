@@ -1,0 +1,37 @@
+[
+  {
+    "id": "MRP_001",
+    "field": "mrp",
+    "type": "presence",
+    "severity": "HIGH",
+    "message": "MRP declaration is missing."
+  },
+  {
+    "id": "QTY_001",
+    "field": "net_quantity",
+    "type": "presence",
+    "severity": "HIGH",
+    "message": "Net quantity declaration is missing."
+  },
+  {
+    "id": "MFR_001",
+    "field": "manufacturer",
+    "type": "presence",
+    "severity": "MEDIUM",
+    "message": "Manufacturer details are missing."
+  },
+  {
+    "id": "DATE_001",
+    "field": "packing_date",
+    "type": "presence",
+    "severity": "MEDIUM",
+    "message": "Packing/manufacturing date declaration is missing."
+  },
+  {
+    "id": "CARE_001",
+    "field": "consumer_care",
+    "type": "presence",
+    "severity": "MEDIUM",
+    "message": "Consumer care information is missing."
+  }
+]
